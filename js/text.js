@@ -69,4 +69,4 @@ class text {
 
 const root = document.querySelector('.text');
 
-new text(document.querySelector('.text_02'), ["Самый пиздатый сервер в Garry’s mod!", "Лучшая администрация!", "Фембойчики ^w^"]);
+new text(document.querySelector('.text_02'), ["Самый пиздатый сервер в Garry’s mod!", "Лучшая администрация!", "Геи"]);
