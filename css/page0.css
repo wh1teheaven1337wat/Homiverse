@@ -52,3 +52,18 @@
     animation: downBTN_color 0.25s ease-in-out;
     animation: downBTN_anim 3s ease-in-out infinite;
 }
+.connectDiv {
+    position: absolute;
+    outline: 1px solid red;
+    box-shadow: -15px 15px 0 #591616;
+    /* box-shadow: 15px -15px 0 #252525; */
+    background-color: #252525;
+    /* height: 150%; */
+    width: 33vw;
+    padding: 15px;
+    left: 5%;
+    animation: d_copyBTN_color 0.25s ease-in-out reverse;
+} .connectDiv:hover {
+    color: #E84949;
+    animation: copyBTN_color 0.25s ease-in-out;
+}

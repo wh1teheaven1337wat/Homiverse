@@ -31,3 +31,27 @@
         padding-top: 0px;
     }
 }
+@keyframes BTN_color {
+    from {
+        transform: translate(0px, 0px);
+        box-shadow: -15px 15px 0 #591616;
+        color: white;
+    } 
+    to {
+        transform: translate(-10px, 10px);
+        box-shadow: -5px 5px 0 #591616;
+        color: #E84949;
+    }
+}
+@keyframes d_BTN_color {
+    from {
+        transform: translate(0px, 0px);
+        box-shadow: -15px 15px 0 #591616;
+        color: white;
+    } 
+    to {
+        transform: translate(-10px, 10px);
+        box-shadow: -5px 5px 0 #591616;
+        color: #E84949;
+    }
+}
