@@ -13,9 +13,12 @@
     box-shadow: -15px 15px 0 #591616;
     /* box-shadow: 15px -15px 0 #252525; */
     background-color: #252525;
-    height: 150%;
+    /* height: 150%; */
     width: 33vw;
     padding: 25px;
+}
+.blocks {
+    display: contents;
 }
 
 .text_p1_block_0 {
@@ -30,7 +33,24 @@
 }
 .text_p1_block_2 {
     font-size: 1rem;
-
+  color: #bbbbbb;
     padding-bottom: 15px;
 
+}
+.block_p1_right {
+    position: absolute;
+    right: 5%;
+}
+.block_p1_left {
+    position: absolute;
+    left: 5%;
+}
+
+
+.img_p1_block_0 {
+    position: absolute;
+    width: 50vw;
+    height: auto;
+    z-index: -2;
+    transform: translate(-500px, -200px)
 }
