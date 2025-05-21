@@ -18,10 +18,13 @@
   transform: translate(0px, 20px)
 }
 
-.text {
+.text_p0 {
   position: absolute;
   left: 1%;
   top: 25%;
   max-width: 65%;
   text-align: start;
+}
+.text_p1 {
+  /* padding: 15px; */
 }
