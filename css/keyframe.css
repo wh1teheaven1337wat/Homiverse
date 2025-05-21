@@ -1,0 +1,33 @@
+@keyframes downBTN_color {
+    from {
+        color: white;
+    }
+    to {
+        color: #E84949;
+    }
+}
+@keyframes d_downBTN_color {
+    from {
+        color: white;
+    }
+    to {
+        color: #E84949;
+    }
+}
+@keyframes downBTN_anim {
+    0% {
+        padding-top: 0px;
+    }
+    25% {
+        padding-top: 35px;
+    }
+    50% {
+        padding-top: 0px;
+    }
+    75% {
+        padding-top: 35px;
+    }
+    100% {
+        padding-top: 0px;
+    }
+}

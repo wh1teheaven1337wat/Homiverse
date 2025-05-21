@@ -1,0 +1,54 @@
+.page0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 85vh;
+    max-height: 85vh;
+}
+.welcome {
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
+}
+.bg {
+    background: url(../img/img-02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+
+    content: "";
+    position: absolute;
+    transform: rotate(-2deg) translate(-50px, -20px);
+    z-index: -1;
+}
+.name {
+    position:fixed;
+    transform: translate(20px, 5px);
+    display: inline;
+}
+.downBtn {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    background-color: #181818;
+    border-color: #181818;
+    color: white;
+    /* transform: translate(0px, 50px); */
+
+    clip-path: polygon(0% 30px,100% 0%,100% 100%,0 100%);
+    animation: d_downBTN_color 0.25s ease-in-out reverse;
+} .downBtn:hover {
+    color: #E84949;
+    animation: downBTN_color 0.25s ease-in-out;
+    animation: downBTN_anim 3s ease-in-out infinite;
+}
