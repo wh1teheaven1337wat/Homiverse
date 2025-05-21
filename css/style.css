@@ -23,13 +23,12 @@ header {
 }
 
 button {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     box-shadow: -15px 15px 0 #591616;
     color: white;
     /* box-shadow: 15px -15px 0 #252525; */
     background-color: #252525;
     /* height: 150%; */
-    width: 33vw;
     padding: 15px;
     animation: d_BTN_color 0.25s ease-in-out reverse;
 } button:hover {
